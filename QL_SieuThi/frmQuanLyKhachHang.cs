@@ -58,8 +58,7 @@ namespace QL_SieuThi
             TrangThaiThemSua();
 
             cboGioiTinh.SelectedIndex = 0;
-            //khi nao load csdl len cboChucVu thi mo comment dong duoi
-            //cboChucVu.SelectedIndex = 0;
+            cboHoatDong.SelectedIndex = 0;
         }
 
         private void btnSua_Click(object sender, EventArgs e)
