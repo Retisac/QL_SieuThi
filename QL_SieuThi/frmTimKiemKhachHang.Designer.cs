@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.radTimTheoGioiTinh = new System.Windows.Forms.RadioButton();
             this.radTimTheoTen = new System.Windows.Forms.RadioButton();
             this.radTimTheoNgayLap = new System.Windows.Forms.RadioButton();
@@ -58,7 +58,7 @@
             this.radTimTheoGioiTinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.radTimTheoGioiTinh.AutoSize = true;
             this.radTimTheoGioiTinh.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radTimTheoGioiTinh.Location = new System.Drawing.Point(368, 140);
+            this.radTimTheoGioiTinh.Location = new System.Drawing.Point(338, 140);
             this.radTimTheoGioiTinh.Margin = new System.Windows.Forms.Padding(2);
             this.radTimTheoGioiTinh.Name = "radTimTheoGioiTinh";
             this.radTimTheoGioiTinh.Size = new System.Drawing.Size(157, 23);
@@ -72,7 +72,7 @@
             this.radTimTheoTen.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.radTimTheoTen.AutoSize = true;
             this.radTimTheoTen.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radTimTheoTen.Location = new System.Drawing.Point(742, 33);
+            this.radTimTheoTen.Location = new System.Drawing.Point(712, 33);
             this.radTimTheoTen.Margin = new System.Windows.Forms.Padding(2);
             this.radTimTheoTen.Name = "radTimTheoTen";
             this.radTimTheoTen.Size = new System.Drawing.Size(123, 23);
@@ -86,7 +86,7 @@
             this.radTimTheoNgayLap.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.radTimTheoNgayLap.AutoSize = true;
             this.radTimTheoNgayLap.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radTimTheoNgayLap.Location = new System.Drawing.Point(742, 140);
+            this.radTimTheoNgayLap.Location = new System.Drawing.Point(712, 140);
             this.radTimTheoNgayLap.Margin = new System.Windows.Forms.Padding(2);
             this.radTimTheoNgayLap.Name = "radTimTheoNgayLap";
             this.radTimTheoNgayLap.Size = new System.Drawing.Size(165, 23);
@@ -100,7 +100,7 @@
             this.radTimTheoMaKhachHang.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.radTimTheoMaKhachHang.AutoSize = true;
             this.radTimTheoMaKhachHang.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radTimTheoMaKhachHang.Location = new System.Drawing.Point(368, 33);
+            this.radTimTheoMaKhachHang.Location = new System.Drawing.Point(338, 33);
             this.radTimTheoMaKhachHang.Margin = new System.Windows.Forms.Padding(2);
             this.radTimTheoMaKhachHang.Name = "radTimTheoMaKhachHang";
             this.radTimTheoMaKhachHang.Size = new System.Drawing.Size(223, 23);
@@ -114,7 +114,7 @@
             this.cboTimTheoNgayLap.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cboTimTheoNgayLap.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboTimTheoNgayLap.FormattingEnabled = true;
-            this.cboTimTheoNgayLap.Location = new System.Drawing.Point(742, 172);
+            this.cboTimTheoNgayLap.Location = new System.Drawing.Point(712, 172);
             this.cboTimTheoNgayLap.Name = "cboTimTheoNgayLap";
             this.cboTimTheoNgayLap.Size = new System.Drawing.Size(271, 34);
             this.cboTimTheoNgayLap.TabIndex = 122;
@@ -124,7 +124,7 @@
             this.cboTimTheoGioiTinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cboTimTheoGioiTinh.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboTimTheoGioiTinh.FormattingEnabled = true;
-            this.cboTimTheoGioiTinh.Location = new System.Drawing.Point(368, 172);
+            this.cboTimTheoGioiTinh.Location = new System.Drawing.Point(338, 172);
             this.cboTimTheoGioiTinh.Name = "cboTimTheoGioiTinh";
             this.cboTimTheoGioiTinh.Size = new System.Drawing.Size(271, 34);
             this.cboTimTheoGioiTinh.TabIndex = 120;
@@ -142,7 +142,7 @@
             this.txtTimTheoTen.LineIdleColor = System.Drawing.Color.Gray;
             this.txtTimTheoTen.LineMouseHoverColor = System.Drawing.Color.Turquoise;
             this.txtTimTheoTen.LineThickness = 1;
-            this.txtTimTheoTen.Location = new System.Drawing.Point(742, 61);
+            this.txtTimTheoTen.Location = new System.Drawing.Point(712, 61);
             this.txtTimTheoTen.Margin = new System.Windows.Forms.Padding(5);
             this.txtTimTheoTen.Name = "txtTimTheoTen";
             this.txtTimTheoTen.Size = new System.Drawing.Size(271, 39);
@@ -162,7 +162,7 @@
             this.txtTimTheoMaKhachHang.LineIdleColor = System.Drawing.Color.Gray;
             this.txtTimTheoMaKhachHang.LineMouseHoverColor = System.Drawing.Color.Turquoise;
             this.txtTimTheoMaKhachHang.LineThickness = 1;
-            this.txtTimTheoMaKhachHang.Location = new System.Drawing.Point(368, 61);
+            this.txtTimTheoMaKhachHang.Location = new System.Drawing.Point(338, 61);
             this.txtTimTheoMaKhachHang.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtTimTheoMaKhachHang.Name = "txtTimTheoMaKhachHang";
             this.txtTimTheoMaKhachHang.Size = new System.Drawing.Size(271, 39);
@@ -202,7 +202,7 @@
             this.btnTimKiem.IconVisible = true;
             this.btnTimKiem.IconZoom = 50D;
             this.btnTimKiem.IsTab = false;
-            this.btnTimKiem.Location = new System.Drawing.Point(526, 251);
+            this.btnTimKiem.Location = new System.Drawing.Point(496, 251);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(93)))), ((int)(((byte)(90)))));
             this.btnTimKiem.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(62)))), ((int)(((byte)(60)))));
@@ -219,8 +219,8 @@
             // 
             this.dgvKhachHang.AllowUserToAddRows = false;
             this.dgvKhachHang.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dgvKhachHang.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dgvKhachHang.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.dgvKhachHang.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -228,14 +228,14 @@
             this.dgvKhachHang.BackgroundColor = System.Drawing.Color.White;
             this.dgvKhachHang.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvKhachHang.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.LightSeaGreen;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(140)))), ((int)(((byte)(135)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvKhachHang.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.LightSeaGreen;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(140)))), ((int)(((byte)(135)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvKhachHang.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvKhachHang.ColumnHeadersHeight = 50;
             this.dgvKhachHang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.makh,
@@ -246,14 +246,14 @@
             this.ngaysinh,
             this.ngaylap,
             this.hoatdong});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(226)))), ((int)(((byte)(244)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvKhachHang.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(226)))), ((int)(((byte)(244)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvKhachHang.DefaultCellStyle = dataGridViewCellStyle9;
             this.dgvKhachHang.DoubleBuffered = true;
             this.dgvKhachHang.EnableHeadersVisualStyles = false;
             this.dgvKhachHang.GridColor = System.Drawing.Color.DarkGray;

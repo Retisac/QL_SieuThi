@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblTimNhanVien = new System.Windows.Forms.Label();
             this.dgvNhanVien = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.manv = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -67,8 +67,8 @@
             // 
             this.dgvNhanVien.AllowUserToAddRows = false;
             this.dgvNhanVien.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dgvNhanVien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dgvNhanVien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dgvNhanVien.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -76,14 +76,14 @@
             this.dgvNhanVien.BackgroundColor = System.Drawing.Color.White;
             this.dgvNhanVien.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvNhanVien.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.LightSeaGreen;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(140)))), ((int)(((byte)(135)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvNhanVien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.LightSeaGreen;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(140)))), ((int)(((byte)(135)))));
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvNhanVien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dgvNhanVien.ColumnHeadersHeight = 50;
             this.dgvNhanVien.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.manv,
@@ -94,14 +94,14 @@
             this.gioiTinh,
             this.luong,
             this.chucvu});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(226)))), ((int)(((byte)(244)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvNhanVien.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(226)))), ((int)(((byte)(244)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvNhanVien.DefaultCellStyle = dataGridViewCellStyle12;
             this.dgvNhanVien.DoubleBuffered = true;
             this.dgvNhanVien.EnableHeadersVisualStyles = false;
             this.dgvNhanVien.GridColor = System.Drawing.Color.DarkGray;
@@ -179,7 +179,7 @@
             this.cboTimTheoChucVu.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cboTimTheoChucVu.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboTimTheoChucVu.FormattingEnabled = true;
-            this.cboTimTheoChucVu.Location = new System.Drawing.Point(742, 172);
+            this.cboTimTheoChucVu.Location = new System.Drawing.Point(712, 172);
             this.cboTimTheoChucVu.Name = "cboTimTheoChucVu";
             this.cboTimTheoChucVu.Size = new System.Drawing.Size(271, 34);
             this.cboTimTheoChucVu.TabIndex = 8;
@@ -189,7 +189,7 @@
             this.cboTimTheoGioiTinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cboTimTheoGioiTinh.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboTimTheoGioiTinh.FormattingEnabled = true;
-            this.cboTimTheoGioiTinh.Location = new System.Drawing.Point(368, 172);
+            this.cboTimTheoGioiTinh.Location = new System.Drawing.Point(338, 172);
             this.cboTimTheoGioiTinh.Name = "cboTimTheoGioiTinh";
             this.cboTimTheoGioiTinh.Size = new System.Drawing.Size(271, 34);
             this.cboTimTheoGioiTinh.TabIndex = 6;
@@ -207,7 +207,7 @@
             this.txtTimTheoHoTen.LineIdleColor = System.Drawing.Color.Gray;
             this.txtTimTheoHoTen.LineMouseHoverColor = System.Drawing.Color.Turquoise;
             this.txtTimTheoHoTen.LineThickness = 1;
-            this.txtTimTheoHoTen.Location = new System.Drawing.Point(742, 61);
+            this.txtTimTheoHoTen.Location = new System.Drawing.Point(712, 61);
             this.txtTimTheoHoTen.Margin = new System.Windows.Forms.Padding(5);
             this.txtTimTheoHoTen.Name = "txtTimTheoHoTen";
             this.txtTimTheoHoTen.Size = new System.Drawing.Size(271, 39);
@@ -227,7 +227,7 @@
             this.txtTimTheoMaNhanVien.LineIdleColor = System.Drawing.Color.Gray;
             this.txtTimTheoMaNhanVien.LineMouseHoverColor = System.Drawing.Color.Turquoise;
             this.txtTimTheoMaNhanVien.LineThickness = 1;
-            this.txtTimTheoMaNhanVien.Location = new System.Drawing.Point(368, 61);
+            this.txtTimTheoMaNhanVien.Location = new System.Drawing.Point(338, 61);
             this.txtTimTheoMaNhanVien.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtTimTheoMaNhanVien.Name = "txtTimTheoMaNhanVien";
             this.txtTimTheoMaNhanVien.Size = new System.Drawing.Size(271, 39);
@@ -239,7 +239,7 @@
             this.radTimTheoGioiTinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.radTimTheoGioiTinh.AutoSize = true;
             this.radTimTheoGioiTinh.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radTimTheoGioiTinh.Location = new System.Drawing.Point(368, 140);
+            this.radTimTheoGioiTinh.Location = new System.Drawing.Point(338, 140);
             this.radTimTheoGioiTinh.Margin = new System.Windows.Forms.Padding(2);
             this.radTimTheoGioiTinh.Name = "radTimTheoGioiTinh";
             this.radTimTheoGioiTinh.Size = new System.Drawing.Size(157, 23);
@@ -253,7 +253,7 @@
             this.radTimTheoHoTen.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.radTimTheoHoTen.AutoSize = true;
             this.radTimTheoHoTen.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radTimTheoHoTen.Location = new System.Drawing.Point(742, 33);
+            this.radTimTheoHoTen.Location = new System.Drawing.Point(712, 33);
             this.radTimTheoHoTen.Margin = new System.Windows.Forms.Padding(2);
             this.radTimTheoHoTen.Name = "radTimTheoHoTen";
             this.radTimTheoHoTen.Size = new System.Drawing.Size(123, 23);
@@ -267,7 +267,7 @@
             this.radTimTheoChucVu.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.radTimTheoChucVu.AutoSize = true;
             this.radTimTheoChucVu.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radTimTheoChucVu.Location = new System.Drawing.Point(742, 140);
+            this.radTimTheoChucVu.Location = new System.Drawing.Point(712, 140);
             this.radTimTheoChucVu.Margin = new System.Windows.Forms.Padding(2);
             this.radTimTheoChucVu.Name = "radTimTheoChucVu";
             this.radTimTheoChucVu.Size = new System.Drawing.Size(157, 23);
@@ -281,7 +281,7 @@
             this.radTimTheoMaNhanVien.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.radTimTheoMaNhanVien.AutoSize = true;
             this.radTimTheoMaNhanVien.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radTimTheoMaNhanVien.Location = new System.Drawing.Point(368, 33);
+            this.radTimTheoMaNhanVien.Location = new System.Drawing.Point(338, 33);
             this.radTimTheoMaNhanVien.Margin = new System.Windows.Forms.Padding(2);
             this.radTimTheoMaNhanVien.Name = "radTimTheoMaNhanVien";
             this.radTimTheoMaNhanVien.Size = new System.Drawing.Size(205, 23);
@@ -313,7 +313,7 @@
             this.btnTimKiem.IconVisible = true;
             this.btnTimKiem.IconZoom = 50D;
             this.btnTimKiem.IsTab = false;
-            this.btnTimKiem.Location = new System.Drawing.Point(526, 251);
+            this.btnTimKiem.Location = new System.Drawing.Point(496, 251);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(93)))), ((int)(((byte)(90)))));
             this.btnTimKiem.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(62)))), ((int)(((byte)(60)))));

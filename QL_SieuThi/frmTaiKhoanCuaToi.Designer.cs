@@ -67,9 +67,10 @@
             // 
             // lblLuong
             // 
+            this.lblLuong.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblLuong.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLuong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
-            this.lblLuong.Location = new System.Drawing.Point(819, 292);
+            this.lblLuong.Location = new System.Drawing.Point(783, 292);
             this.lblLuong.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLuong.Name = "lblLuong";
             this.lblLuong.Size = new System.Drawing.Size(67, 26);
@@ -78,9 +79,10 @@
             // 
             // lblDienThoai
             // 
+            this.lblDienThoai.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDienThoai.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDienThoai.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
-            this.lblDienThoai.Location = new System.Drawing.Point(819, 112);
+            this.lblDienThoai.Location = new System.Drawing.Point(783, 112);
             this.lblDienThoai.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDienThoai.Name = "lblDienThoai";
             this.lblDienThoai.Size = new System.Drawing.Size(100, 26);
@@ -89,9 +91,10 @@
             // 
             // lblChucVu
             // 
+            this.lblChucVu.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblChucVu.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChucVu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
-            this.lblChucVu.Location = new System.Drawing.Point(819, 382);
+            this.lblChucVu.Location = new System.Drawing.Point(783, 382);
             this.lblChucVu.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblChucVu.Name = "lblChucVu";
             this.lblChucVu.Size = new System.Drawing.Size(81, 26);
@@ -100,9 +103,10 @@
             // 
             // lblGioiTinh
             // 
+            this.lblGioiTinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblGioiTinh.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGioiTinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
-            this.lblGioiTinh.Location = new System.Drawing.Point(819, 202);
+            this.lblGioiTinh.Location = new System.Drawing.Point(783, 202);
             this.lblGioiTinh.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGioiTinh.Name = "lblGioiTinh";
             this.lblGioiTinh.Size = new System.Drawing.Size(86, 26);
@@ -111,9 +115,10 @@
             // 
             // lblDiaChi
             // 
+            this.lblDiaChi.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDiaChi.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDiaChi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
-            this.lblDiaChi.Location = new System.Drawing.Point(284, 382);
+            this.lblDiaChi.Location = new System.Drawing.Point(248, 382);
             this.lblDiaChi.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDiaChi.Name = "lblDiaChi";
             this.lblDiaChi.Size = new System.Drawing.Size(70, 26);
@@ -122,9 +127,10 @@
             // 
             // lblNgaySinh
             // 
+            this.lblNgaySinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblNgaySinh.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNgaySinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
-            this.lblNgaySinh.Location = new System.Drawing.Point(284, 292);
+            this.lblNgaySinh.Location = new System.Drawing.Point(248, 292);
             this.lblNgaySinh.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNgaySinh.Name = "lblNgaySinh";
             this.lblNgaySinh.Size = new System.Drawing.Size(96, 26);
@@ -133,9 +139,10 @@
             // 
             // lblHoTen
             // 
+            this.lblHoTen.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblHoTen.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHoTen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
-            this.lblHoTen.Location = new System.Drawing.Point(284, 202);
+            this.lblHoTen.Location = new System.Drawing.Point(248, 202);
             this.lblHoTen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHoTen.Name = "lblHoTen";
             this.lblHoTen.Size = new System.Drawing.Size(93, 26);
@@ -144,9 +151,10 @@
             // 
             // lblMaNhanVien
             // 
+            this.lblMaNhanVien.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblMaNhanVien.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMaNhanVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
-            this.lblMaNhanVien.Location = new System.Drawing.Point(284, 112);
+            this.lblMaNhanVien.Location = new System.Drawing.Point(248, 112);
             this.lblMaNhanVien.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMaNhanVien.Name = "lblMaNhanVien";
             this.lblMaNhanVien.Size = new System.Drawing.Size(128, 26);
@@ -155,6 +163,7 @@
             // 
             // txtMaNhanVien
             // 
+            this.txtMaNhanVien.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtMaNhanVien.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMaNhanVien.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaNhanVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
@@ -165,7 +174,7 @@
             this.txtMaNhanVien.LineIdleColor = System.Drawing.Color.Gray;
             this.txtMaNhanVien.LineMouseHoverColor = System.Drawing.Color.Turquoise;
             this.txtMaNhanVien.LineThickness = 2;
-            this.txtMaNhanVien.Location = new System.Drawing.Point(419, 99);
+            this.txtMaNhanVien.Location = new System.Drawing.Point(383, 99);
             this.txtMaNhanVien.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.txtMaNhanVien.Name = "txtMaNhanVien";
             this.txtMaNhanVien.Size = new System.Drawing.Size(299, 44);
@@ -174,6 +183,7 @@
             // 
             // txtHoTen
             // 
+            this.txtHoTen.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtHoTen.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtHoTen.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHoTen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
@@ -184,7 +194,7 @@
             this.txtHoTen.LineIdleColor = System.Drawing.Color.Gray;
             this.txtHoTen.LineMouseHoverColor = System.Drawing.Color.Turquoise;
             this.txtHoTen.LineThickness = 2;
-            this.txtHoTen.Location = new System.Drawing.Point(419, 189);
+            this.txtHoTen.Location = new System.Drawing.Point(383, 189);
             this.txtHoTen.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Size = new System.Drawing.Size(299, 44);
@@ -193,6 +203,7 @@
             // 
             // txtDiaChi
             // 
+            this.txtDiaChi.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtDiaChi.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtDiaChi.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDiaChi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
@@ -203,7 +214,7 @@
             this.txtDiaChi.LineIdleColor = System.Drawing.Color.Gray;
             this.txtDiaChi.LineMouseHoverColor = System.Drawing.Color.Turquoise;
             this.txtDiaChi.LineThickness = 2;
-            this.txtDiaChi.Location = new System.Drawing.Point(419, 369);
+            this.txtDiaChi.Location = new System.Drawing.Point(383, 369);
             this.txtDiaChi.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(299, 44);
@@ -212,6 +223,7 @@
             // 
             // txtDienThoai
             // 
+            this.txtDienThoai.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtDienThoai.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtDienThoai.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDienThoai.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
@@ -222,7 +234,7 @@
             this.txtDienThoai.LineIdleColor = System.Drawing.Color.Gray;
             this.txtDienThoai.LineMouseHoverColor = System.Drawing.Color.Turquoise;
             this.txtDienThoai.LineThickness = 2;
-            this.txtDienThoai.Location = new System.Drawing.Point(937, 99);
+            this.txtDienThoai.Location = new System.Drawing.Point(901, 99);
             this.txtDienThoai.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtDienThoai.Name = "txtDienThoai";
             this.txtDienThoai.Size = new System.Drawing.Size(299, 44);
@@ -232,6 +244,7 @@
             // 
             // txtLuong
             // 
+            this.txtLuong.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtLuong.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtLuong.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLuong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
@@ -242,7 +255,7 @@
             this.txtLuong.LineIdleColor = System.Drawing.Color.Gray;
             this.txtLuong.LineMouseHoverColor = System.Drawing.Color.Turquoise;
             this.txtLuong.LineThickness = 2;
-            this.txtLuong.Location = new System.Drawing.Point(937, 283);
+            this.txtLuong.Location = new System.Drawing.Point(901, 283);
             this.txtLuong.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtLuong.Name = "txtLuong";
             this.txtLuong.Size = new System.Drawing.Size(299, 44);
@@ -252,41 +265,45 @@
             // 
             // cboGioiTinh
             // 
+            this.cboGioiTinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cboGioiTinh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboGioiTinh.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboGioiTinh.FormattingEnabled = true;
             this.cboGioiTinh.Items.AddRange(new object[] {
             "Nam ",
             "Nữ"});
-            this.cboGioiTinh.Location = new System.Drawing.Point(937, 199);
+            this.cboGioiTinh.Location = new System.Drawing.Point(901, 199);
             this.cboGioiTinh.Name = "cboGioiTinh";
             this.cboGioiTinh.Size = new System.Drawing.Size(299, 34);
             this.cboGioiTinh.TabIndex = 8;
             // 
             // cboChucVu
             // 
+            this.cboChucVu.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cboChucVu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboChucVu.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboChucVu.FormattingEnabled = true;
-            this.cboChucVu.Location = new System.Drawing.Point(937, 382);
+            this.cboChucVu.Location = new System.Drawing.Point(901, 382);
             this.cboChucVu.Name = "cboChucVu";
             this.cboChucVu.Size = new System.Drawing.Size(299, 34);
             this.cboChucVu.TabIndex = 10;
             // 
             // dtmNgaySinh
             // 
+            this.dtmNgaySinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dtmNgaySinh.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtmNgaySinh.Location = new System.Drawing.Point(419, 287);
+            this.dtmNgaySinh.Location = new System.Drawing.Point(383, 287);
             this.dtmNgaySinh.Name = "dtmNgaySinh";
             this.dtmNgaySinh.Size = new System.Drawing.Size(299, 33);
             this.dtmNgaySinh.TabIndex = 5;
             // 
             // btnHuy
             // 
+            this.btnHuy.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnHuy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnHuy.Image = global::QL_SieuThi.Properties.Resources.icons8_deletewhite_32;
             this.btnHuy.ImageActive = null;
-            this.btnHuy.Location = new System.Drawing.Point(603, 583);
+            this.btnHuy.Location = new System.Drawing.Point(572, 583);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(81, 50);
             this.btnHuy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -297,10 +314,11 @@
             // 
             // btnSuaXong
             // 
+            this.btnSuaXong.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnSuaXong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(172)))), ((int)(((byte)(132)))));
             this.btnSuaXong.Image = global::QL_SieuThi.Properties.Resources.icons8_checkmark_32;
             this.btnSuaXong.ImageActive = null;
-            this.btnSuaXong.Location = new System.Drawing.Point(459, 583);
+            this.btnSuaXong.Location = new System.Drawing.Point(428, 583);
             this.btnSuaXong.Name = "btnSuaXong";
             this.btnSuaXong.Size = new System.Drawing.Size(81, 50);
             this.btnSuaXong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -312,6 +330,7 @@
             // btnDangXuat
             // 
             this.btnDangXuat.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(6)))), ((int)(((byte)(13)))));
+            this.btnDangXuat.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnDangXuat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnDangXuat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnDangXuat.BorderRadius = 0;
@@ -331,7 +350,7 @@
             this.btnDangXuat.IconVisible = true;
             this.btnDangXuat.IconZoom = 50D;
             this.btnDangXuat.IsTab = false;
-            this.btnDangXuat.Location = new System.Drawing.Point(937, 484);
+            this.btnDangXuat.Location = new System.Drawing.Point(901, 484);
             this.btnDangXuat.Name = "btnDangXuat";
             this.btnDangXuat.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnDangXuat.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(10)))), ((int)(((byte)(20)))));
@@ -348,6 +367,7 @@
             // btnChinhSua
             // 
             this.btnChinhSua.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(93)))), ((int)(((byte)(90)))));
+            this.btnChinhSua.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnChinhSua.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnChinhSua.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnChinhSua.BorderRadius = 0;
@@ -367,7 +387,7 @@
             this.btnChinhSua.IconVisible = true;
             this.btnChinhSua.IconZoom = 50D;
             this.btnChinhSua.IsTab = false;
-            this.btnChinhSua.Location = new System.Drawing.Point(419, 484);
+            this.btnChinhSua.Location = new System.Drawing.Point(383, 484);
             this.btnChinhSua.Name = "btnChinhSua";
             this.btnChinhSua.Normalcolor = System.Drawing.Color.LightSeaGreen;
             this.btnChinhSua.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(140)))), ((int)(((byte)(135)))));
@@ -384,7 +404,7 @@
             // picTaiKhoan
             // 
             this.picTaiKhoan.Image = global::QL_SieuThi.Properties.Resources.iconfinder_00_ELASTOFONT_STORE_READY_user_circle_2703062__1_;
-            this.picTaiKhoan.Location = new System.Drawing.Point(46, 99);
+            this.picTaiKhoan.Location = new System.Drawing.Point(83, 99);
             this.picTaiKhoan.Name = "picTaiKhoan";
             this.picTaiKhoan.Size = new System.Drawing.Size(140, 140);
             this.picTaiKhoan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

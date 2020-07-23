@@ -157,5 +157,37 @@ namespace QL_SieuThi
             f.Dock = DockStyle.Fill;
             f.Show();
         }
+
+        private void quảnLýToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            //Dong form dang chay
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+            }
+
+            //Mo form frmQuanLyNhanVien
+            frmQuanLySanPham f = new frmQuanLySanPham();
+            f.MdiParent = this;
+            f.FormBorderStyle = FormBorderStyle.None;
+            f.Dock = DockStyle.Fill;
+            f.Show();
+        }
+
+        private void tìmSảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Dong form dang chay
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+            }
+
+            //Mo form frmQuanLyNhanVien
+            frmTimTheoLoai f = new frmTimTheoLoai();
+            f.MdiParent = this;
+            f.FormBorderStyle = FormBorderStyle.None;
+            f.Dock = DockStyle.Fill;
+            f.Show();
+        }
     }
 }
