@@ -69,14 +69,30 @@ namespace QL_SieuThi
 
         void KiemTraNhap()
         {
-            // Lat len coi csdl roi lam
+            string manv = txtMaNhanVien.Text.Trim();
+            string hoten = txtHoTen.Text.Trim();
+            string diachi = txtDiaChi.Text.Trim();
+            string dienthoai = txtDienThoai.Text.Trim();
+            string luong = txtLuong.Text.Trim();
+
+            //kiem tra dieu kien nhap
+            if (manv != "" && hoten != "" && diachi != "" && dienthoai != "" && luong!= "")
+            {
+                //Sua thanh cong
+                btnChinhSua.Enabled = true;
+                btnDangXuat.Enabled = true;
+                TrangThaiBanDau();
+            }
+            else
+            {
+                //Khong cho sua that bai vi khong dien du thong tin
+                MessageBox.Show("Bạn chưa nhập đủ thông tin", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void btnSuaXong_Click(object sender, EventArgs e)
         {
-            btnChinhSua.Enabled = true;
-            btnDangXuat.Enabled = true;
-            TrangThaiBanDau();
+            KiemTraNhap();
         }
 
         private void btnHuy_Click(object sender, EventArgs e)

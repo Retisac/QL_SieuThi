@@ -56,6 +56,10 @@ namespace QL_SieuThi
         private void btnThem_Click(object sender, EventArgs e)
         {
             TrangThaiThemSua();
+
+            cboGioiTinh.SelectedIndex = 0;
+            //khi nao load csdl len cboChucVu thi mo comment dong duoi
+            //cboChucVu.SelectedIndex = 0;
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -81,12 +85,28 @@ namespace QL_SieuThi
 
         void KiemTraNhap()
         {
-            // lat coi csdl lam
+            string manv = txtMaNhanVien.Text.Trim();
+            string hoten = txtHoTen.Text.Trim();
+            string diachi = txtDiaChi.Text.Trim();
+            string dienthoai = txtDienThoai.Text.Trim();
+            string luong = txtLuong.Text.Trim();
+
+            //kiem tra dieu kien nhap
+            if (manv != "" && hoten != "" && diachi != "" && dienthoai != "" && luong!= "")
+            {
+                //Them Sua thanh cong
+                TrangThaiBanDau();
+            }
+            else
+            {
+                //Khong cho Them hoac Sua that bai vi khong dien du thong tin
+                MessageBox.Show("Bạn chưa nhập đủ thông tin", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void btnThemSuaXong_Click(object sender, EventArgs e)
         {
-            TrangThaiBanDau();
+            KiemTraNhap();
         }
 
         private void btnHuy_Click(object sender, EventArgs e)
@@ -94,5 +114,9 @@ namespace QL_SieuThi
             TrangThaiBanDau();
         }
 
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bạn có muốn xóa nhân viên này", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+        }
     }
 }

@@ -56,6 +56,10 @@ namespace QL_SieuThi
         private void btnThem_Click(object sender, EventArgs e)
         {
             TrangThaiThemSua();
+
+            cboGioiTinh.SelectedIndex = 0;
+            //khi nao load csdl len cboChucVu thi mo comment dong duoi
+            //cboChucVu.SelectedIndex = 0;
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -73,17 +77,31 @@ namespace QL_SieuThi
 
         void KiemTraNhap()
         {
-            // lat coi csdl lam
+            string makh = txtMaKhachHang.Text.Trim();
+            string hoten = txtHoTen.Text.Trim();
+            string diachi = txtDiaChi.Text.Trim();
+            string dienthoai = txtDienThoai.Text.Trim();
+            //kiem tra dieu kien nhap
+            if (makh != "" && hoten != "" && diachi != "" && dienthoai != "")
+            {
+                //Them Sua thanh cong
+                TrangThaiBanDau();
+            }
+            else
+            {
+                //Khong cho Them hoac Sua that bai vi khong dien du thong tin
+                MessageBox.Show("Bạn chưa nhập đủ thông tin", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void btnThemSuaXong_Click(object sender, EventArgs e)
         {
-            TrangThaiBanDau();
+            KiemTraNhap();
         }
 
         private void btnHuy_Click(object sender, EventArgs e)
         {
             TrangThaiBanDau();
-        }      
+        }
     }
 }

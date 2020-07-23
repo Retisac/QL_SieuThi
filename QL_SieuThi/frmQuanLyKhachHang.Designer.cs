@@ -31,15 +31,15 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.luong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvKhachHang = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.manv = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.hovaten = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ngaysinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.makh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenkhachhang = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.diachi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gioiTinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.chucvu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ngaysinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ngaylap = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hoatdong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dtmNgaySinh = new System.Windows.Forms.DateTimePicker();
             this.cboHoatDong = new System.Windows.Forms.ComboBox();
             this.cboGioiTinh = new System.Windows.Forms.ComboBox();
@@ -69,12 +69,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picTaiKhoan)).BeginInit();
             this.SuspendLayout();
             // 
-            // luong
-            // 
-            this.luong.HeaderText = "Lương";
-            this.luong.Name = "luong";
-            this.luong.ReadOnly = true;
-            // 
             // dgvKhachHang
             // 
             this.dgvKhachHang.AllowUserToAddRows = false;
@@ -98,14 +92,14 @@
             this.dgvKhachHang.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvKhachHang.ColumnHeadersHeight = 50;
             this.dgvKhachHang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.manv,
-            this.hovaten,
-            this.ngaysinh,
+            this.makh,
+            this.tenkhachhang,
             this.diachi,
             this.dienThoai,
             this.gioiTinh,
-            this.luong,
-            this.chucvu});
+            this.ngaysinh,
+            this.ngaylap,
+            this.hoatdong});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -135,50 +129,64 @@
             this.dgvKhachHang.RowTemplate.Height = 30;
             this.dgvKhachHang.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvKhachHang.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvKhachHang.Size = new System.Drawing.Size(1240, 310);
+            this.dgvKhachHang.Size = new System.Drawing.Size(1242, 310);
             this.dgvKhachHang.TabIndex = 141;
             // 
-            // manv
+            // makh
             // 
-            this.manv.HeaderText = "Mã nhân viên";
-            this.manv.Name = "manv";
-            this.manv.ReadOnly = true;
+            this.makh.DataPropertyName = "makh";
+            this.makh.HeaderText = "Mã khách hàng";
+            this.makh.Name = "makh";
+            this.makh.ReadOnly = true;
             // 
-            // hovaten
+            // tenkhachhang
             // 
-            this.hovaten.HeaderText = "Họ và tên";
-            this.hovaten.Name = "hovaten";
-            this.hovaten.ReadOnly = true;
-            // 
-            // ngaysinh
-            // 
-            this.ngaysinh.HeaderText = "Ngày sinh";
-            this.ngaysinh.Name = "ngaysinh";
-            this.ngaysinh.ReadOnly = true;
+            this.tenkhachhang.DataPropertyName = "tenkhachhang";
+            this.tenkhachhang.HeaderText = "Họ và tên";
+            this.tenkhachhang.Name = "tenkhachhang";
+            this.tenkhachhang.ReadOnly = true;
             // 
             // diachi
             // 
+            this.diachi.DataPropertyName = "diaChi";
             this.diachi.HeaderText = "Địa chỉ";
             this.diachi.Name = "diachi";
             this.diachi.ReadOnly = true;
             // 
             // dienThoai
             // 
+            this.dienThoai.DataPropertyName = "dienThoai";
             this.dienThoai.HeaderText = "Điện thoại";
             this.dienThoai.Name = "dienThoai";
             this.dienThoai.ReadOnly = true;
             // 
             // gioiTinh
             // 
+            this.gioiTinh.DataPropertyName = "gioiTinh";
             this.gioiTinh.HeaderText = "Giới tính";
             this.gioiTinh.Name = "gioiTinh";
             this.gioiTinh.ReadOnly = true;
             // 
-            // chucvu
+            // ngaysinh
             // 
-            this.chucvu.HeaderText = "Chức vụ";
-            this.chucvu.Name = "chucvu";
-            this.chucvu.ReadOnly = true;
+            this.ngaysinh.DataPropertyName = "ngaysinh";
+            this.ngaysinh.HeaderText = "Ngày sinh";
+            this.ngaysinh.Name = "ngaysinh";
+            this.ngaysinh.ReadOnly = true;
+            // 
+            // ngaylap
+            // 
+            this.ngaylap.DataPropertyName = "ngaylap";
+            this.ngaylap.HeaderText = "Ngày lập";
+            this.ngaylap.Name = "ngaylap";
+            this.ngaylap.ReadOnly = true;
+            // 
+            // hoatdong
+            // 
+            this.hoatdong.DataPropertyName = "hoatdong";
+            this.hoatdong.HeaderText = "Hoạt động";
+            this.hoatdong.Name = "hoatdong";
+            this.hoatdong.ReadOnly = true;
             // 
             // dtmNgaySinh
             // 
@@ -192,6 +200,7 @@
             // cboHoatDong
             // 
             this.cboHoatDong.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.cboHoatDong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboHoatDong.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboHoatDong.FormattingEnabled = true;
             this.cboHoatDong.Location = new System.Drawing.Point(799, 291);
@@ -202,8 +211,12 @@
             // cboGioiTinh
             // 
             this.cboGioiTinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.cboGioiTinh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboGioiTinh.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboGioiTinh.FormattingEnabled = true;
+            this.cboGioiTinh.Items.AddRange(new object[] {
+            "Nam",
+            "Nữ"});
             this.cboGioiTinh.Location = new System.Drawing.Point(799, 83);
             this.cboGioiTinh.Name = "cboGioiTinh";
             this.cboGioiTinh.Size = new System.Drawing.Size(217, 27);
@@ -600,16 +613,7 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridViewTextBoxColumn luong;
         private Bunifu.Framework.UI.BunifuCustomDataGrid dgvKhachHang;
-        private System.Windows.Forms.DataGridViewTextBoxColumn manv;
-        private System.Windows.Forms.DataGridViewTextBoxColumn hovaten;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ngaysinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn diachi;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dienThoai;
-        private System.Windows.Forms.DataGridViewTextBoxColumn gioiTinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn chucvu;
         private Bunifu.Framework.UI.BunifuFlatButton btnXoa;
         private Bunifu.Framework.UI.BunifuFlatButton btnSua;
         private Bunifu.Framework.UI.BunifuFlatButton btnThem;
@@ -633,5 +637,13 @@
         private System.Windows.Forms.PictureBox picTaiKhoan;
         private System.Windows.Forms.Label lblNgayLap;
         private System.Windows.Forms.DateTimePicker dtmNgayLap;
+        private System.Windows.Forms.DataGridViewTextBoxColumn makh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenkhachhang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn diachi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dienThoai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn gioiTinh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ngaysinh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ngaylap;
+        private System.Windows.Forms.DataGridViewTextBoxColumn hoatdong;
     }
 }

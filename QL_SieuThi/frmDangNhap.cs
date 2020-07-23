@@ -24,10 +24,25 @@ namespace QL_SieuThi
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            frmMain formMain = new frmMain();
-            formMain.Show();
-            Program.OpenDetailFormOnClose = true;
-            this.Close();
+            //kiem tra co nhap khoang trang khong
+            string tendangnhap = txtTenDangNhap.Text.Trim();
+            string matkhau = txtMatKhau.Text.Trim();
+
+            if (tendangnhap != "" && matkhau != "")
+            {
+                //Kiem tra du lieu voi csdl de dang nhap vi da nhap du thong tin
+                //mo form
+                frmMain formMain = new frmMain();
+                formMain.Show();
+                Program.OpenDetailFormOnClose = true;
+                this.Close();
+            }
+            else
+            {
+                //Khong cho dang nhap vi ten dang nhap, mat khau trong
+                MessageBox.Show("Tên đăng nhập hoặc mật khẩu trống", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            
         }
 
         private void txtTenDangNhap_Enter(object sender, EventArgs e)

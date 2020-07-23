@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblTimNhanVien = new System.Windows.Forms.Label();
             this.dgvNhanVien = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.manv = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,14 +41,14 @@
             this.gioiTinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.luong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.chucvu = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cboChucVu = new System.Windows.Forms.ComboBox();
-            this.cboGioiTinh = new System.Windows.Forms.ComboBox();
-            this.txtHoTen = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.txtMaNhanVien = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.radGioiTinh = new System.Windows.Forms.RadioButton();
-            this.radHoTen = new System.Windows.Forms.RadioButton();
-            this.radChucVu = new System.Windows.Forms.RadioButton();
-            this.radMaNv = new System.Windows.Forms.RadioButton();
+            this.cboTimTheoChucVu = new System.Windows.Forms.ComboBox();
+            this.cboTimTheoGioiTinh = new System.Windows.Forms.ComboBox();
+            this.txtTimTheoHoTen = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.txtTimTheoMaNhanVien = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.radTimTheoGioiTinh = new System.Windows.Forms.RadioButton();
+            this.radTimTheoHoTen = new System.Windows.Forms.RadioButton();
+            this.radTimTheoChucVu = new System.Windows.Forms.RadioButton();
+            this.radTimTheoMaNhanVien = new System.Windows.Forms.RadioButton();
             this.btnTimKiem = new Bunifu.Framework.UI.BunifuFlatButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).BeginInit();
             this.SuspendLayout();
@@ -67,8 +67,8 @@
             // 
             this.dgvNhanVien.AllowUserToAddRows = false;
             this.dgvNhanVien.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dgvNhanVien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dgvNhanVien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvNhanVien.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -76,14 +76,14 @@
             this.dgvNhanVien.BackgroundColor = System.Drawing.Color.White;
             this.dgvNhanVien.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvNhanVien.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.LightSeaGreen;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(140)))), ((int)(((byte)(135)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvNhanVien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.LightSeaGreen;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(140)))), ((int)(((byte)(135)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvNhanVien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvNhanVien.ColumnHeadersHeight = 50;
             this.dgvNhanVien.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.manv,
@@ -94,14 +94,14 @@
             this.gioiTinh,
             this.luong,
             this.chucvu});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(226)))), ((int)(((byte)(244)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvNhanVien.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(226)))), ((int)(((byte)(244)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvNhanVien.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvNhanVien.DoubleBuffered = true;
             this.dgvNhanVien.EnableHeadersVisualStyles = false;
             this.dgvNhanVien.GridColor = System.Drawing.Color.DarkGray;
@@ -174,121 +174,121 @@
             this.chucvu.Name = "chucvu";
             this.chucvu.ReadOnly = true;
             // 
-            // cboChucVu
+            // cboTimTheoChucVu
             // 
-            this.cboChucVu.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.cboChucVu.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboChucVu.FormattingEnabled = true;
-            this.cboChucVu.Location = new System.Drawing.Point(742, 172);
-            this.cboChucVu.Name = "cboChucVu";
-            this.cboChucVu.Size = new System.Drawing.Size(271, 34);
-            this.cboChucVu.TabIndex = 8;
+            this.cboTimTheoChucVu.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.cboTimTheoChucVu.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboTimTheoChucVu.FormattingEnabled = true;
+            this.cboTimTheoChucVu.Location = new System.Drawing.Point(742, 172);
+            this.cboTimTheoChucVu.Name = "cboTimTheoChucVu";
+            this.cboTimTheoChucVu.Size = new System.Drawing.Size(271, 34);
+            this.cboTimTheoChucVu.TabIndex = 8;
             // 
-            // cboGioiTinh
+            // cboTimTheoGioiTinh
             // 
-            this.cboGioiTinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.cboGioiTinh.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboGioiTinh.FormattingEnabled = true;
-            this.cboGioiTinh.Location = new System.Drawing.Point(368, 172);
-            this.cboGioiTinh.Name = "cboGioiTinh";
-            this.cboGioiTinh.Size = new System.Drawing.Size(271, 34);
-            this.cboGioiTinh.TabIndex = 6;
+            this.cboTimTheoGioiTinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.cboTimTheoGioiTinh.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboTimTheoGioiTinh.FormattingEnabled = true;
+            this.cboTimTheoGioiTinh.Location = new System.Drawing.Point(368, 172);
+            this.cboTimTheoGioiTinh.Name = "cboTimTheoGioiTinh";
+            this.cboTimTheoGioiTinh.Size = new System.Drawing.Size(271, 34);
+            this.cboTimTheoGioiTinh.TabIndex = 6;
             // 
-            // txtHoTen
+            // txtTimTheoHoTen
             // 
-            this.txtHoTen.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtHoTen.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtHoTen.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHoTen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.txtHoTen.HintForeColor = System.Drawing.Color.Empty;
-            this.txtHoTen.HintText = "";
-            this.txtHoTen.isPassword = false;
-            this.txtHoTen.LineFocusedColor = System.Drawing.Color.LightSeaGreen;
-            this.txtHoTen.LineIdleColor = System.Drawing.Color.Gray;
-            this.txtHoTen.LineMouseHoverColor = System.Drawing.Color.Turquoise;
-            this.txtHoTen.LineThickness = 1;
-            this.txtHoTen.Location = new System.Drawing.Point(742, 61);
-            this.txtHoTen.Margin = new System.Windows.Forms.Padding(5);
-            this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.Size = new System.Drawing.Size(271, 39);
-            this.txtHoTen.TabIndex = 4;
-            this.txtHoTen.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtTimTheoHoTen.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtTimTheoHoTen.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTimTheoHoTen.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTimTheoHoTen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.txtTimTheoHoTen.HintForeColor = System.Drawing.Color.Empty;
+            this.txtTimTheoHoTen.HintText = "";
+            this.txtTimTheoHoTen.isPassword = false;
+            this.txtTimTheoHoTen.LineFocusedColor = System.Drawing.Color.LightSeaGreen;
+            this.txtTimTheoHoTen.LineIdleColor = System.Drawing.Color.Gray;
+            this.txtTimTheoHoTen.LineMouseHoverColor = System.Drawing.Color.Turquoise;
+            this.txtTimTheoHoTen.LineThickness = 1;
+            this.txtTimTheoHoTen.Location = new System.Drawing.Point(742, 61);
+            this.txtTimTheoHoTen.Margin = new System.Windows.Forms.Padding(5);
+            this.txtTimTheoHoTen.Name = "txtTimTheoHoTen";
+            this.txtTimTheoHoTen.Size = new System.Drawing.Size(271, 39);
+            this.txtTimTheoHoTen.TabIndex = 4;
+            this.txtTimTheoHoTen.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // txtMaNhanVien
+            // txtTimTheoMaNhanVien
             // 
-            this.txtMaNhanVien.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtMaNhanVien.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtMaNhanVien.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaNhanVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.txtMaNhanVien.HintForeColor = System.Drawing.Color.Empty;
-            this.txtMaNhanVien.HintText = "";
-            this.txtMaNhanVien.isPassword = false;
-            this.txtMaNhanVien.LineFocusedColor = System.Drawing.Color.LightSeaGreen;
-            this.txtMaNhanVien.LineIdleColor = System.Drawing.Color.Gray;
-            this.txtMaNhanVien.LineMouseHoverColor = System.Drawing.Color.Turquoise;
-            this.txtMaNhanVien.LineThickness = 1;
-            this.txtMaNhanVien.Location = new System.Drawing.Point(368, 61);
-            this.txtMaNhanVien.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.txtMaNhanVien.Name = "txtMaNhanVien";
-            this.txtMaNhanVien.Size = new System.Drawing.Size(271, 39);
-            this.txtMaNhanVien.TabIndex = 2;
-            this.txtMaNhanVien.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtTimTheoMaNhanVien.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtTimTheoMaNhanVien.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTimTheoMaNhanVien.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTimTheoMaNhanVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.txtTimTheoMaNhanVien.HintForeColor = System.Drawing.Color.Empty;
+            this.txtTimTheoMaNhanVien.HintText = "";
+            this.txtTimTheoMaNhanVien.isPassword = false;
+            this.txtTimTheoMaNhanVien.LineFocusedColor = System.Drawing.Color.LightSeaGreen;
+            this.txtTimTheoMaNhanVien.LineIdleColor = System.Drawing.Color.Gray;
+            this.txtTimTheoMaNhanVien.LineMouseHoverColor = System.Drawing.Color.Turquoise;
+            this.txtTimTheoMaNhanVien.LineThickness = 1;
+            this.txtTimTheoMaNhanVien.Location = new System.Drawing.Point(368, 61);
+            this.txtTimTheoMaNhanVien.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txtTimTheoMaNhanVien.Name = "txtTimTheoMaNhanVien";
+            this.txtTimTheoMaNhanVien.Size = new System.Drawing.Size(271, 39);
+            this.txtTimTheoMaNhanVien.TabIndex = 2;
+            this.txtTimTheoMaNhanVien.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // radGioiTinh
+            // radTimTheoGioiTinh
             // 
-            this.radGioiTinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.radGioiTinh.AutoSize = true;
-            this.radGioiTinh.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radGioiTinh.Location = new System.Drawing.Point(368, 140);
-            this.radGioiTinh.Margin = new System.Windows.Forms.Padding(2);
-            this.radGioiTinh.Name = "radGioiTinh";
-            this.radGioiTinh.Size = new System.Drawing.Size(157, 23);
-            this.radGioiTinh.TabIndex = 5;
-            this.radGioiTinh.TabStop = true;
-            this.radGioiTinh.Text = "Tìm theo giới tính";
-            this.radGioiTinh.UseVisualStyleBackColor = true;
+            this.radTimTheoGioiTinh.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.radTimTheoGioiTinh.AutoSize = true;
+            this.radTimTheoGioiTinh.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radTimTheoGioiTinh.Location = new System.Drawing.Point(368, 140);
+            this.radTimTheoGioiTinh.Margin = new System.Windows.Forms.Padding(2);
+            this.radTimTheoGioiTinh.Name = "radTimTheoGioiTinh";
+            this.radTimTheoGioiTinh.Size = new System.Drawing.Size(157, 23);
+            this.radTimTheoGioiTinh.TabIndex = 5;
+            this.radTimTheoGioiTinh.TabStop = true;
+            this.radTimTheoGioiTinh.Text = "Tìm theo giới tính";
+            this.radTimTheoGioiTinh.UseVisualStyleBackColor = true;
             // 
-            // radHoTen
+            // radTimTheoHoTen
             // 
-            this.radHoTen.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.radHoTen.AutoSize = true;
-            this.radHoTen.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radHoTen.Location = new System.Drawing.Point(742, 33);
-            this.radHoTen.Margin = new System.Windows.Forms.Padding(2);
-            this.radHoTen.Name = "radHoTen";
-            this.radHoTen.Size = new System.Drawing.Size(123, 23);
-            this.radHoTen.TabIndex = 3;
-            this.radHoTen.TabStop = true;
-            this.radHoTen.Text = "Tìm theo Tên";
-            this.radHoTen.UseVisualStyleBackColor = true;
+            this.radTimTheoHoTen.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.radTimTheoHoTen.AutoSize = true;
+            this.radTimTheoHoTen.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radTimTheoHoTen.Location = new System.Drawing.Point(742, 33);
+            this.radTimTheoHoTen.Margin = new System.Windows.Forms.Padding(2);
+            this.radTimTheoHoTen.Name = "radTimTheoHoTen";
+            this.radTimTheoHoTen.Size = new System.Drawing.Size(123, 23);
+            this.radTimTheoHoTen.TabIndex = 3;
+            this.radTimTheoHoTen.TabStop = true;
+            this.radTimTheoHoTen.Text = "Tìm theo Tên";
+            this.radTimTheoHoTen.UseVisualStyleBackColor = true;
             // 
-            // radChucVu
+            // radTimTheoChucVu
             // 
-            this.radChucVu.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.radChucVu.AutoSize = true;
-            this.radChucVu.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radChucVu.Location = new System.Drawing.Point(742, 140);
-            this.radChucVu.Margin = new System.Windows.Forms.Padding(2);
-            this.radChucVu.Name = "radChucVu";
-            this.radChucVu.Size = new System.Drawing.Size(157, 23);
-            this.radChucVu.TabIndex = 7;
-            this.radChucVu.TabStop = true;
-            this.radChucVu.Text = "Tìm theo chức vụ";
-            this.radChucVu.UseVisualStyleBackColor = true;
+            this.radTimTheoChucVu.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.radTimTheoChucVu.AutoSize = true;
+            this.radTimTheoChucVu.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radTimTheoChucVu.Location = new System.Drawing.Point(742, 140);
+            this.radTimTheoChucVu.Margin = new System.Windows.Forms.Padding(2);
+            this.radTimTheoChucVu.Name = "radTimTheoChucVu";
+            this.radTimTheoChucVu.Size = new System.Drawing.Size(157, 23);
+            this.radTimTheoChucVu.TabIndex = 7;
+            this.radTimTheoChucVu.TabStop = true;
+            this.radTimTheoChucVu.Text = "Tìm theo chức vụ";
+            this.radTimTheoChucVu.UseVisualStyleBackColor = true;
             // 
-            // radMaNv
+            // radTimTheoMaNhanVien
             // 
-            this.radMaNv.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.radMaNv.AutoSize = true;
-            this.radMaNv.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radMaNv.Location = new System.Drawing.Point(368, 33);
-            this.radMaNv.Margin = new System.Windows.Forms.Padding(2);
-            this.radMaNv.Name = "radMaNv";
-            this.radMaNv.Size = new System.Drawing.Size(205, 23);
-            this.radMaNv.TabIndex = 1;
-            this.radMaNv.TabStop = true;
-            this.radMaNv.Text = "Tìm theo mã nhân viên";
-            this.radMaNv.UseVisualStyleBackColor = true;
+            this.radTimTheoMaNhanVien.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.radTimTheoMaNhanVien.AutoSize = true;
+            this.radTimTheoMaNhanVien.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radTimTheoMaNhanVien.Location = new System.Drawing.Point(368, 33);
+            this.radTimTheoMaNhanVien.Margin = new System.Windows.Forms.Padding(2);
+            this.radTimTheoMaNhanVien.Name = "radTimTheoMaNhanVien";
+            this.radTimTheoMaNhanVien.Size = new System.Drawing.Size(205, 23);
+            this.radTimTheoMaNhanVien.TabIndex = 1;
+            this.radTimTheoMaNhanVien.TabStop = true;
+            this.radTimTheoMaNhanVien.Text = "Tìm theo mã nhân viên";
+            this.radTimTheoMaNhanVien.UseVisualStyleBackColor = true;
             // 
             // btnTimKiem
             // 
@@ -333,14 +333,14 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1259, 645);
             this.Controls.Add(this.btnTimKiem);
-            this.Controls.Add(this.radGioiTinh);
-            this.Controls.Add(this.radHoTen);
-            this.Controls.Add(this.radChucVu);
-            this.Controls.Add(this.radMaNv);
-            this.Controls.Add(this.cboChucVu);
-            this.Controls.Add(this.cboGioiTinh);
-            this.Controls.Add(this.txtHoTen);
-            this.Controls.Add(this.txtMaNhanVien);
+            this.Controls.Add(this.radTimTheoGioiTinh);
+            this.Controls.Add(this.radTimTheoHoTen);
+            this.Controls.Add(this.radTimTheoChucVu);
+            this.Controls.Add(this.radTimTheoMaNhanVien);
+            this.Controls.Add(this.cboTimTheoChucVu);
+            this.Controls.Add(this.cboTimTheoGioiTinh);
+            this.Controls.Add(this.txtTimTheoHoTen);
+            this.Controls.Add(this.txtTimTheoMaNhanVien);
             this.Controls.Add(this.dgvNhanVien);
             this.Controls.Add(this.lblTimNhanVien);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -365,14 +365,14 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn gioiTinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn luong;
         private System.Windows.Forms.DataGridViewTextBoxColumn chucvu;
-        private System.Windows.Forms.ComboBox cboChucVu;
-        private System.Windows.Forms.ComboBox cboGioiTinh;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox txtHoTen;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox txtMaNhanVien;
-        private System.Windows.Forms.RadioButton radGioiTinh;
-        private System.Windows.Forms.RadioButton radHoTen;
-        private System.Windows.Forms.RadioButton radChucVu;
-        private System.Windows.Forms.RadioButton radMaNv;
+        private System.Windows.Forms.ComboBox cboTimTheoChucVu;
+        private System.Windows.Forms.ComboBox cboTimTheoGioiTinh;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txtTimTheoHoTen;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txtTimTheoMaNhanVien;
+        private System.Windows.Forms.RadioButton radTimTheoGioiTinh;
+        private System.Windows.Forms.RadioButton radTimTheoHoTen;
+        private System.Windows.Forms.RadioButton radTimTheoChucVu;
+        private System.Windows.Forms.RadioButton radTimTheoMaNhanVien;
         private Bunifu.Framework.UI.BunifuFlatButton btnTimKiem;
     }
 }
